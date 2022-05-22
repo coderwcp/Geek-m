@@ -1,5 +1,11 @@
+import { Button } from "antd-mobile";
+
 function Login() {
-  return <div>登录</div>;
+  return (
+    <div>
+      <Button color="primary"> 登录</Button>
+    </div>
+  );
 }
 
 export default Login;
