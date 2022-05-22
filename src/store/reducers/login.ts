@@ -1,5 +1,10 @@
-const initialState = {};
+import { Token } from "@/types/data";
 
-export default function login(state = initialState, action: unknown) {
+const initialState: Token = {
+  token: "",
+  refresh_token: "",
+};
+
+export default function login(state = initialState, action: unknown): Token {
   return state;
 }
